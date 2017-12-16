@@ -14,14 +14,21 @@
 
     <h1>todos</h1>
 
-    <input class="add-new" type="text" name="add-new" placeholder="What is to be done?"  >
 
-    <div id="list">
-        <form action="" class="item">
-            <input type="checkbox" class="checkbox">
-            <div class="item-name">Milch</div>
-            <input type="button" class="button">
-        </form>
+    <div class="todo">
+        <input class="todo__add" type="text" name="add-new" placeholder="What is to be done?">
+
+        <ul class="todo__list">
+            <li class="todo__item">
+                <label>
+                    <div class="todo__checkbox">
+                        <input type="checkbox">
+                    </div>
+                    <div class="todo__name">Milch Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    <button class="todo__button">×</button>
+                </label>
+            </li>
+        </ul>
     </div>
 
 </div>
